@@ -10,7 +10,7 @@ final appBarBackgroundColor = Colors.yellow[700];
 // the final used below is used to display the background color of the container
 final containerBackgroundColor = BoxDecoration(
   gradient: LinearGradient(
-    colors: [Colors.yellow[700], Colors.white, Colors.yellow[700]],
+    colors: [Colors.yellow[700], Colors.white, Colors.yellow[700],],
   ),
 );
 

@@ -21,6 +21,7 @@ class DisplayPageNumberColumnWidget extends StatelessWidget {
       decoration: kUpperContainerColor,
       //  the below text is just for my visibility purpose of the row
       child: Row(
+        // TODO: need to set the main axis alignment to space evenly
         children: <Widget>[
           Text(
             //'Previous page number',
@@ -41,6 +42,8 @@ class DisplayPageNumberColumnWidget extends StatelessWidget {
           //   ),
           // ),
           buildTotalPagesInPath(),
+
+          // TODO: need to remove all the sized box widgets from this row widget
           SizedBox(
             width: 125.0,
           ),

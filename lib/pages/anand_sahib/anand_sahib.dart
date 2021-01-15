@@ -6,7 +6,7 @@ import 'package:nitnem/finals.dart';
 import 'package:nitnem/pages/anand_sahib/anand_sahib_path_reference.dart';
 import 'package:nitnem/pages/main_menu.dart';
 import 'package:nitnem/reusable_widgets/display_page_number_column_widget.dart';
-import 'package:nitnem/reusable_widgets/new_icon_button_widget.dart';
+//import 'package:nitnem/reusable_widgets/new_icon_button_widget.dart';
 import 'package:nitnem/reusable_widgets/new_reusable_button_widget.dart';
 import 'package:nitnem/reusable_widgets/path_text_display.dart';
 import 'package:nitnem/reusable_widgets/reusable_app_bar_text_widget.dart';
@@ -85,6 +85,7 @@ class _AnandSahibContentState extends State<AnandSahibContent> {
           Expanded(
             child: Container(
               decoration: containerBackgroundColor,
+              // TODO: need to wrap the widget here and in all the other paths below with padding widget so as to have some space between the text and the container
               child: PathTextDisplay(
                 displayPathText:
                     anandSahibPathReference.displayAnandSahibText(),
@@ -227,9 +228,9 @@ class _AnandSahibContentState extends State<AnandSahibContent> {
               ],
             ),
           ),
-          SizedBox(
-            height: 10.0,
-          ),
+          // SizedBox(
+          //   height: 10.0,
+          // ),
         ],
       ),
     );

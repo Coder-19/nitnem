@@ -9,7 +9,7 @@ import 'package:nitnem/pages/jaapSahib/jaap_sahib.dart';
 import 'package:nitnem/pages/japjiSahib/japji_sahib.dart';
 import 'package:nitnem/pages/kirtan_sohila/kirtan_sohila.dart';
 import 'package:nitnem/pages/rehras_sahib/rehras_sahib.dart';
-import 'package:nitnem/reusable_widgets/new_icon_button_widget.dart';
+//import 'package:nitnem/reusable_widgets/new_icon_button_widget.dart';
 import 'package:nitnem/reusable_widgets/reusable_app_bar_text_widget.dart';
 import 'package:nitnem/reusable_widgets/reusable_raised_button.dart';
 
@@ -57,10 +57,15 @@ class MainMenu extends StatelessWidget {
 class MainBody extends StatelessWidget {
   // function shown below return the image whenever called
   // the return type of the function is Image
-  Image iconWidget() {
-    return Image(
-      image: AssetImage(
-        'images/nishanSahib.png',
+  Widget iconWidget() {
+    // the below image widget is wrapped in flexible since there may be various
+    // mobiles with various sizes so as to display the images according to the
+    // size of the screen
+    return Flexible(
+      child: Image(
+        image: AssetImage(
+          'images/nishanSahib.png',
+        ),
       ),
     );
   }

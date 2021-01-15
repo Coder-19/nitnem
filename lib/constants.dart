@@ -4,15 +4,11 @@ import 'package:flutter/material.dart';
 // to be displayed at the top of each path
 const kPageNumberTextDesign = TextStyle(
   fontSize: 23.0,
-//  fontWeight: FontWeight.bold,
   color: Colors.white,
-  // color: Colors.brown,
 );
 
 // creating a constant for the bottom container color
 const kBottomContainerColor = BoxDecoration(
-//  color: Colors.yellow,
-  //color: Color(0xFFC18C1E),
   color: Color(0xFFC46210),
 );
 
@@ -20,7 +16,4 @@ const kBottomContainerColor = BoxDecoration(
 // page numbers
 const kUpperContainerColor = BoxDecoration(
   color: Color(0xFFC46210),
-  // color: Colors.amber,
-  // color: Color(0xFFFFCC00),
-  // color: Colors.orange,
 );
