@@ -85,10 +85,13 @@ class _AnandSahibContentState extends State<AnandSahibContent> {
           Expanded(
             child: Container(
               decoration: containerBackgroundColor,
-              // TODO: need to wrap the widget here and in all the other paths below with padding widget so as to have some space between the text and the container
-              child: PathTextDisplay(
-                displayPathText:
-                    anandSahibPathReference.displayAnandSahibText(),
+              
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: PathTextDisplay(
+                  displayPathText:
+                      anandSahibPathReference.displayAnandSahibText(),
+                ),
               ),
             ),
           ),
