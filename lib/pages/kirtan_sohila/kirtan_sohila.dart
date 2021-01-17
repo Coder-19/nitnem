@@ -86,9 +86,12 @@ class _KirtanSohilaContentState extends State<KirtanSohilaContent> {
           Expanded(
             child: Container(
               decoration: containerBackgroundColor,
-              child: PathTextDisplay(
-                displayPathText:
-                    kirtanSohilaPathReference.displayKirtanSohilaText(),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: PathTextDisplay(
+                  displayPathText:
+                      kirtanSohilaPathReference.displayKirtanSohilaText(),
+                ),
               ),
             ),
           ),

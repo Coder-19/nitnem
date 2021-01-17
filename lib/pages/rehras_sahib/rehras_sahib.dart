@@ -85,9 +85,12 @@ class _RehrasSahibContentState extends State<RehrasSahibContent> {
           Expanded(
             child: Container(
               decoration: containerBackgroundColor,
-              child: PathTextDisplay(
-                displayPathText:
-                    rehrasSahibPathReference.displayRehrasSahibText(),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: PathTextDisplay(
+                  displayPathText:
+                      rehrasSahibPathReference.displayRehrasSahibText(),
+                ),
               ),
             ),
           ),

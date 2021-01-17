@@ -84,8 +84,11 @@ class _ArdasContentState extends State<ArdasContent> {
           Expanded(
             child: Container(
               decoration: containerBackgroundColor,
-              child: PathTextDisplay(
-                displayPathText: ardasReference.displayArdasText(),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: PathTextDisplay(
+                  displayPathText: ardasReference.displayArdasText(),
+                ),
               ),
             ),
           ),
