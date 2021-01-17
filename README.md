@@ -1,4 +1,4 @@
-# nitnem
+# Nitnem
 
 This project is an application mostly used by sikh community. The application is open to all for contributions.
 
