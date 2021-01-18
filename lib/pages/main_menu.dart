@@ -83,7 +83,7 @@ class MainBody extends StatelessWidget {
           Expanded(
             child: Center(
               child: ReusableRaisedButton(
-                newPageRoute: JapjiSahib(),
+                newPageRoute: JapjiSahibContent(),
                 nameOfPath: 'Japji Sahib',
               ),
             ),
