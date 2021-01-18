@@ -87,9 +87,12 @@ class _ChaupaiSahibContentState extends State<ChaupaiSahibContent> {
           Expanded(
             child: Container(
               decoration: containerBackgroundColor,
-              child: PathTextDisplay(
-                displayPathText:
-                    chaupaiSahibReference.displayChaupaiSahibText(),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: PathTextDisplay(
+                  displayPathText:
+                      chaupaiSahibReference.displayChaupaiSahibText(),
+                ),
               ),
             ),
           ),

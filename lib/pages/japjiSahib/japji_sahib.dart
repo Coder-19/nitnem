@@ -89,8 +89,11 @@ class _JapjiSahibContentState extends State<JapjiSahibContent> {
             height: 20.0,
           ),
           Expanded(
-            child: PathTextDisplay(
-              displayPathText: jspr.displayJapjiSahibText(),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: PathTextDisplay(
+                displayPathText: jspr.displayJapjiSahibText(),
+              ),
             ),
           ),
           Container(

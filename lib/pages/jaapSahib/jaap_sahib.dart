@@ -89,8 +89,11 @@ class _JaapSahibContentState extends State<JaapSahibContent> {
           Expanded(
             child: Container(
               decoration: containerBackgroundColor,
-              child: PathTextDisplay(
-                displayPathText: jaapSahibReference.displayJaapSahibText(),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: PathTextDisplay(
+                  displayPathText: jaapSahibReference.displayJaapSahibText(),
+                ),
               ),
             ),
           ),

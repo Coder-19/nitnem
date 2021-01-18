@@ -86,9 +86,12 @@ class _TavPrasadSavayieContentState extends State<TavPrasadSavayieContent> {
           Expanded(
             child: Container(
               decoration: containerBackgroundColor,
-              child: PathTextDisplay(
-                displayPathText:
-                    tavPrasadReference.displayTavPrasadSavayieText(),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: PathTextDisplay(
+                  displayPathText:
+                      tavPrasadReference.displayTavPrasadSavayieText(),
+                ),
               ),
             ),
           ),
