@@ -1,6 +1,6 @@
 # Nitnem
 
-This project is an application mostly used by sikh community. The application is open to all for contributions.
+This project is an application for sikh community. The application is open to all for contributions.
 
 ## How to run in an emulator or android device
 1. Install Flutter and dart SDK
